@@ -7,22 +7,33 @@
     <meta name="keywords" content="xenad, tazzadarth, RGB, Detkov">
     <meta name="description" content="Eto ya Alexey Detkov!">
     <title>Alexey's Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="https://sun1.userapi.com/sun1-47/s/v1/ig1/FbxBUxJHZTIFRwo2gatXM0wHb-uoG1C8Bk2UiXntGHu3fPiaDpzATNadSW5FQqYax4oWgBaB.jpg?size=200x400&quality=96&crop=0,0,1080,2160&ava=1" alt="тут должна быть моя ава" width="150">
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="">Item 1</a></li>
+                <li><a href="">Item 2</a></li>
+                <li><a href="">Item 3</a></li>
+                <li><a href="">Item 4</a></li>
+                <li><a href="">Item 5</a></li>
+            </ul>
+        </nav>
+    <img src="https://sun1.userapi.com/sun1-47/s/v1/ig1/FbxBUxJHZTIFRwo2gatXM0wHb-uoG1C8Bk2UiXntGHu3fPiaDpzATNadSW5FQqYax4oWgBaB.jpg?size=200x400&quality=96&crop=0,0,1080,2160&ava=1" alt="тут должна быть моя ава" class="box">
     <h1>Alexey Detkov</h1>
     <p>Я студент, закончивший обучение в колледже <strong>Царицыно</strong> в 2022 году с успехом, решил заняться
         изучением <strong><em>HTML и CSS.</em></strong>  </p>
         <p>Моё начало лежит здесь, <br> <strong> на курсе Владилена</strong></p>
         <br>
-        <strong>Список соц.сетей:</strong> 
-        <p><a href="https://vk.com/tazzadarth" target="_blank">Мой Вк</a></p>
-    <h2>Список моих увлечений :</h2>
-    <ul>
-        <li>Компьютерные игры</li>
-        <li>Рисование</li>
-        <li>Программирование</li>
-        <li>Просмотр видеороликов</li>
+        <h1> Список соц.сетей:</h1>
+        <p><a href="https://vk.com/tazzadarth" target="_blank" >Мой Вк</a></p>
+    <h1>Список моих увлечений :</h1>
+    <ul class="list">
+        <li><span > Компьютерные игры</span></li>
+        <li><span >Рисование</span></li>
+        <li><span >Программирование</span></li>
+        <li><span >Просмотр видеороликов</span></li>
     </ul>
     <h3>Опыт работы</h3>
     <table>
@@ -43,30 +54,74 @@
 
 </tbody>
     </table>
+    <table class="table">
+<tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+</tr>
+    </table>
     <br>
-    <form>
+    <form class="form">
 <div>
     <label for="Name">Ваше имя</label>
     <br>
-    <input type="text" id="Name" placeholder="Введите имя">
+    <input type="text" class="input1" id="Name" placeholder="Введите имя">
     
 </div>
 <div>
     <label for="email">Ваш email</label>
     <br>
-    <input type="email" id="email" placeholder="Введите email">
+    <input type="email" class="input1" id="email" placeholder="Введите email">
 </div>
 <label for="message">Сообщение для меня</label>
 <br>
-<textarea name="Ваше сообщение" id="message" cols="20" rows="5" placeholder="Начните вводить сообщение..."></textarea>
+<textarea name="Ваше сообщение" class="input1" id="message" cols="20" rows="5" placeholder="Начните вводить сообщение..."></textarea>
 <br>
 <div>
     
-    <input type="submit" id="b1" value="Отправить!">
+    <input type="submit" class="btn" id="b1" value="Отправить!">
 </div>
 
  
     </form>
-    
+</div>
 </body>
 </html>
