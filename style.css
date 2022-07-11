@@ -102,3 +102,7 @@ background-color: #eeefff;
     margin: 5px;
     font-size: 20px;
 }
+#message{
+    max-width: 430px;
+    color: black;
+}
